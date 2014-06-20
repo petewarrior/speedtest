@@ -1,24 +1,28 @@
 {
   "name": "speedtest"
-  ,"author": "Josh Erickson <josh@snoj.us>"
+  ,"author": "Arya Antaputra <arya@petewarrior.com>"
   ,"description": "A simple http speed test for private networks."
   ,"version": "0.2.0"
   ,"contributors": [ 
     {
+      "name": "Arya Antaputra",
+      "email": "arya@petewarrior.com"
+    },
+	{
       "name": "Josh Erickson",
       "email": "josh@snoj.us"
-    } 
+    }
   ]
   ,"keywords": [
     "http"
     ,"speed test"
   ]
   ,"scripts": {
-    "start": "node ./speed.js"
+    "start": "node bin/speed.js"
   }
   ,"repository": {
     "type": "git",
-    "url": "https://github.com/snoj/speedtest.git"
+    "url": "https://github.com/petewarrior/speedtest.git"
   }
   ,"license": "MIT"
   ,"engines": {
